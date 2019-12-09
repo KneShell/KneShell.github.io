@@ -1,0 +1,18 @@
+---
+layout: default
+author: "Kneshell"
+---
+{% if page.title == "test post"%}
+    This is test post if condition
+{% elsif page.title == "no" %}
+{% else %}
+    This is anoter test post if condition
+{% endif %}
+<h1>{{ page.title }}</h1>
+<h3>{{ page.author }}</h3>
+<hr>
+
+{% for person in site.data.people %}
+    {{ person.name }}, {{ person.occupation }} <br>
+{% endfor %}
+{{ content }}
