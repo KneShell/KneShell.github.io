@@ -8,8 +8,8 @@ highlighter:      rouge
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
+title:               KneShell
+tagline:             'Programming Blog'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 "https://KneShell.github.io"
 baseurl:             ""
@@ -23,7 +23,7 @@ author:
   email:             markdotto@gmail.com
 
 # Custom vars
-version:             1.1.0
+version:             1.2.0
 
 # category & tag
 category_dir: category/
