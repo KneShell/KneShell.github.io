@@ -1,8 +1,8 @@
 ---
 title: "list index"
 layout: post
-categories: [python]
-tags: [python]
+categories: [algorithm]
+tags: [algorithm]
 ---
 어제 코드 워즈에서 이런 문제가 나왔다.
 
