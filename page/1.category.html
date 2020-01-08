@@ -17,26 +17,26 @@ type: page
         <time>
         {{ esc_date }}
         </time>
-    <a v-bind:href="p.url">{{ esc_title }}</a>
+        <a v-bind:href="p.url" >{{ esc_title }}</a>
     </li>
-</ul>
+    </ul>
 </div>
 
 <script>
     var hash = decodeURI(window.location.hash.substr(1));
-
+    
     var postList = new Vue({
     el: '#post-list',
     data: {
     posts: []
     }
-    });
+});
 
-axios.get('/posts.json')
-.then(function (response) {
-    postList.posts = response.data.posts;
+    axios.get('/posts.json')
+    .then(function (response) {
+        postList.posts = response.data.posts;
     })
-.catch(function (error) {
-    console.log(error);
-    });
+    .catch(function (error) {
+        console.log(error);
+});
 </script>
