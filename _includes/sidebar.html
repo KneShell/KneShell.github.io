@@ -37,7 +37,7 @@
                               <span class="name">
                                   {{ category | first }}
                               </span>
-          <span class="badge" style="background-color: gray; border-radius: 50%; float: right; ">( {{ category | last | size }} )</span>
+          <span class="badge" style="background-color: gray; border-radius: 50%; float: right; ">&nbsp&nbsp{{ category | last | size }}&nbsp&nbsp</span>
         </a>
         {% endfor %}
       </nav>
@@ -101,3 +101,10 @@
     </p>
   </div>
 </div>
+
+<!--  링크 바뀐후 페이지 업로드 기능 -->
+<script>
+  window.addEventListener('hashchange', function(){
+    location.reload();
+  });
+</script>

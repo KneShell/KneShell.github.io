@@ -18,12 +18,12 @@ plugins: [jekyll-paginate]
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              KneShell
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             ilchanjoo@gmail.com
 
 # Custom vars
-version:             1.2.0
+version:             1.2.1
 
 # category & tag
 category_dir: category/
