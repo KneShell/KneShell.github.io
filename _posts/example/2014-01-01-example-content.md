@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Example content
-categories: [test]
-tags: [test]
+categories: [example]
+tags: [example]
 ---
 
 
