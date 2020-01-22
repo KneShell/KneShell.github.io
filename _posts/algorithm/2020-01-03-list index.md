@@ -4,7 +4,7 @@ layout: post
 categories: [algorithm]
 tags: [algorithm]
 ---
-어제 코드 워즈에서 이런 문제가 나왔다.
+코드 워즈에서 이런 문제가 나왔다.
 
 Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
